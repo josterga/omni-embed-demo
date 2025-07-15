@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Omni Analytics Demo</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background: #f9f9f9;
+  }
+  h1 {
+    text-align: center;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  select, input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  iframe {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+  .error {
+    color: red;
+    text-align: center;
+  }
+</style>
+</head>
+
+<body>
+<div class="container">
+  <h1>Omni Analytics Embed Demo</h1>
+  
+  <label for="sessionSelect">Choose a session:</label>
+  <select id="sessionSelect">
+    <option value="">-- Select Session --</option>
+  </select>
+  
+  <label for="customUrl">Or paste a session URL:</label>
+  <input type="url" id="customUrl" placeholder="https://omni.playground.exploreomni.dev/" />
+  
+  <button id="loadBtn">Load in Embed</button>
+  
+  <div class="error" id="errorMsg"></div>
+  
+  <iframe id="embedFrame" src="" allowfullscreen></iframe>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

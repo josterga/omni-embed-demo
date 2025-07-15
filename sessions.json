@@ -1,0 +1,16 @@
+{
+  "sessions": [
+    {
+      "name": "Marketing Dashboard - Q2",
+      "url": "https://analytics.omni.co/session/marketing-q2-demo"
+    },
+    {
+      "name": "Product Engagement",
+      "url": "https://analytics.omni.co/session/product-engagement-demo"
+    },
+    {
+      "name": "Executive Summary",
+      "url": "https://analytics.omni.co/session/executive-summary-demo"
+    }
+  ]
+}
