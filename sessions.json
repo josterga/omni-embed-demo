@@ -1,16 +1,12 @@
 {
   "sessions": [
     {
-      "name": "Marketing Dashboard - Q2",
-      "url": "https://analytics.omni.co/session/marketing-q2-demo"
+      "name": "AI Chat",
+      "url": "https://trapped.alleyezomni.com/embed/login?contentPath=%2Fchat&externalId=embed-demo&name=embed-demo&nonce=fU0CiLdRFLFNBsCdA6RiL4mu4ZawcZma&signature=inrZoYtgrmZVnxpW6a-dCZl-ML5bpRlQEdxtj3fbxe8&connectionRoles=%7B%228875863e-b5c1-4b73-8668-b2bbd05994df%22%3A%22RESTRICTED_QUERIER%22%7D"
     },
     {
-      "name": "Product Engagement",
-      "url": "https://analytics.omni.co/session/product-engagement-demo"
-    },
-    {
-      "name": "Executive Summary",
-      "url": "https://analytics.omni.co/session/executive-summary-demo"
+      "name": "Brand Lookup",
+      "url": "https://trapped.alleyezomni.com/embed/login?contentPath=%2FUwYjEXDH&externalId=embed-demo&name=embed-demo&nonce=W892jUU3sOrHNDHBeSjEkeKIaMFGCDXS&signature=N6Lt7Tlw_kKV1xosgBpH4isUoWgUyBg4onJCFZeyKAI&connectionRoles=%7B%228875863e-b5c1-4b73-8668-b2bbd05994df%22%3A%22RESTRICTED_QUERIER%22%7D"
     }
   ]
 }
