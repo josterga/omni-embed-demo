@@ -1,12 +1,12 @@
 {
   "sessions": [
     {
-      "name": "AI Chat",
-      "url": "https://trapped.alleyezomni.com/embed/login?contentPath=%2Fchat&externalId=embed-demo&name=embed-demo&nonce=fU0CiLdRFLFNBsCdA6RiL4mu4ZawcZma&signature=inrZoYtgrmZVnxpW6a-dCZl-ML5bpRlQEdxtj3fbxe8&connectionRoles=%7B%228875863e-b5c1-4b73-8668-b2bbd05994df%22%3A%22RESTRICTED_QUERIER%22%7D"
+      "name": "1",
+      "url": "https://trapped.alleyezomni.com/embed/login?contentPath=%2Froot&externalId=repro-mobile&name=repro-mobile&nonce=r6vJfjQM3luC5bCq0pGhvpAwK605UgAg&signature=BR7Oju4z388OGSrnvlxMcIVUFTJhnE12o9VH3sJ8qMI&connectionRoles=%7B%7D&mode=APPLICATION&modelRoles=%7B%228875863e-b5c1-4b73-8668-b2bbd05994df%22%3A%22RESTRICTED_QUERIER%22%7D&preserveEntityFolderContentRole=false"
     },
     {
-      "name": "Brand Lookup",
-      "url": "https://trapped.alleyezomni.com/embed/login?contentPath=%2FUwYjEXDH&externalId=embed-demo&name=embed-demo&nonce=W892jUU3sOrHNDHBeSjEkeKIaMFGCDXS&signature=N6Lt7Tlw_kKV1xosgBpH4isUoWgUyBg4onJCFZeyKAI&connectionRoles=%7B%228875863e-b5c1-4b73-8668-b2bbd05994df%22%3A%22RESTRICTED_QUERIER%22%7D"
+      "name": "2",
+      "url": "https://trapped.alleyezomni.com/embed/login?contentPath=%2Froot&externalId=repro-mobile&name=repro-mobile&nonce=vznuzeSXF3PAnLoBTggoXyXepygO5cwD&signature=-zUHx-AFC6u9Kz10n9Mmco4vk9ZDoR3pxevVD8wuHpU&connectionRoles=%7B%7D&mode=APPLICATION&modelRoles=%7B%228875863e-b5c1-4b73-8668-b2bbd05994df%22%3A%22RESTRICTED_QUERIER%22%7D&preserveEntityFolderContentRole=false"
     }
   ]
 }
