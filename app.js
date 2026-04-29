@@ -1,4 +1,3 @@
-// app.js
 document.addEventListener("DOMContentLoaded", () => {
   const sessionSelect = document.getElementById("sessionSelect");
   const customUrl = document.getElementById("customUrl");
@@ -6,7 +5,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const embedFrame = document.getElementById("embedFrame");
   const errorMsg = document.getElementById("errorMsg");
 
-  const SESSIONS_JSON = "sessions.json"; // static file in repo
+  const SESSIONS_JSON = "sessions.json";
+
+  // Listen for size events from the embedded Omni iframe
+  window.addEventListener("message", (event) => {
+    if (event.data && event.data.type === "size") {
+      const { height, width } = event.data;
+      if (height) embedFrame.style.height = `${height}px`;
+      if (width) embedFrame.style.width = `${width}px`;
+    }
+  });
 
   // Load session URLs from JSON
   fetch(SESSIONS_JSON)
